@@ -65,7 +65,7 @@ In this section, you'll be measuring the correlation between the gop_pct (% voti
 {Your response here}
 
 
-**Bonus question**
+**Challenge question**
 The election data we used for this project also includes median income. In 2012, what was the correlation between median income and the GOP vote share for the whole country? Then pick two regions and calculate the correlation between these variables in each one. Present your results and explain what they tell you about the relationship between these variables country wide and within each of the regions you chose focusing on the direction and magnitude of the correlation.
 
 ```{r}
