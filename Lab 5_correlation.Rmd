@@ -64,34 +64,6 @@ In this section, you'll be measuring the correlation between the gop_pct (% voti
 
 {Your response here}
 
-### Part 2: ANOVA
-In this section you'll calcluate the change in vote for the Republican candidate by county and then use ANOVA/post-hoc tests to determine if these changes differed across the four U.S. Census regions.
-
-To start with, you'll need to calculate that change in vote.
-
-**Question 6** _Subset the dataset you loaded at the start of this lab so it includes just the region, county fips, year_txt, and gop_pct variables. Transform this data so the years are wide (individual columns) rather than long. Then calculate the change in percentage Republican vote between 2008 and 2016. Call the head of your table when done._
-
-```{r}
-#Code here
-```
-
-**Question 7** _Create a boxplot that shows the distribution of the vote change variable you just created in question 6 by census region. Describe two notable trends shown by this graph._
-
-```{r}
-#Code here
-```
-
-{Text here}
-
-**Question 8** _Let's assume the change variable is normally distributed. Do an ANOVA analysis of that variable across regions and call the results. Then run a TukeyHSD test on the output as a post-hoc test._
-
-```{r}
-#Code here
-```
-
-**Question 9** _Based on the analysis you did in question 8, was the change in Republican vote between 2008 and 2016 different between geographic regions? If so, which regions appear to be different from each other? Use the box plot you created in question 9 to describe the direction of difference as well as significance (e.g., which regions were higher or lower than others._
-
-{Text here.}
 
 **Bonus question**
 The election data we used for this project also includes median income. In 2012, what was the correlation between median income and the GOP vote share for the whole country? Then pick two regions and calculate the correlation between these variables in each one. Present your results and explain what they tell you about the relationship between these variables country wide and within each of the regions you chose focusing on the direction and magnitude of the correlation.
@@ -103,3 +75,5 @@ The election data we used for this project also includes median income. In 2012,
 {Discussion here.}
 
 **Lab reflection:** _How do you feel about the work you did on this lab? Was it easy, moderate, or hard? What were the biggest things you learned by completing it?_
+
+{Discussion here.}
